@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>inscription</class>
+ <widget class="QMainWindow" name="inscription">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>349</width>
+    <height>386</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Century Gothic</family>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>AfT Mobile</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="0" column="0">
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <widget class="QLabel" name="label_14">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: url(:/Login/LOGIN/header_login.png);
+background-color: rgb(238, 31, 36);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="scaledContents">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <layout class="QGridLayout" name="gridLayout">
+        <item row="0" column="0" colspan="2">
+         <widget class="QScrollArea" name="scrollArea">
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="scrollAreaWidgetContents">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>308</width>
+             <height>348</height>
+            </rect>
+           </property>
+           <layout class="QFormLayout" name="formLayout">
+            <item row="0" column="1">
+             <widget class="QLineEdit" name="le_nom">
+              <property name="font">
+               <font>
+                <family>Century Gothic</family>
+               </font>
+              </property>
+              <property name="inputMask">
+               <string extracomment="Veuillez entrer svp votre nom"/>
+              </property>
+              <property name="placeholderText">
+               <string>Nom</string>
+              </property>
+             </widget>
+            </item>
+            <item row="2" column="1">
+             <widget class="QLineEdit" name="le_tph">
+              <property name="font">
+               <font>
+                <family>Century Gothic</family>
+               </font>
+              </property>
+              <property name="inputMask">
+               <string/>
+              </property>
+              <property name="maxLength">
+               <number>10</number>
+              </property>
+              <property name="placeholderText">
+               <string>Téléphone</string>
+              </property>
+             </widget>
+            </item>
+            <item row="3" column="1">
+             <widget class="QLineEdit" name="le_email">
+              <property name="font">
+               <font>
+                <family>Century Gothic</family>
+               </font>
+              </property>
+              <property name="inputMask">
+               <string extracomment="Veuillez entrer svp votre email"/>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="placeholderText">
+               <string>e-mail</string>
+              </property>
+             </widget>
+            </item>
+            <item row="4" column="1">
+             <widget class="QLineEdit" name="le_adresse">
+              <property name="font">
+               <font>
+                <family>Century Gothic</family>
+               </font>
+              </property>
+              <property name="placeholderText">
+               <string>Adresse</string>
+              </property>
+             </widget>
+            </item>
+            <item row="5" column="1">
+             <widget class="QLineEdit" name="le_emploi">
+              <property name="font">
+               <font>
+                <family>Century Gothic</family>
+               </font>
+              </property>
+              <property name="placeholderText">
+               <string>Emploi ou situation</string>
+              </property>
+             </widget>
+            </item>
+            <item row="6" column="1">
+             <widget class="QLineEdit" name="le_organisme">
+              <property name="font">
+               <font>
+                <family>Century Gothic</family>
+               </font>
+              </property>
+              <property name="placeholderText">
+               <string>Organisme</string>
+              </property>
+             </widget>
+            </item>
+            <item row="7" column="1">
+             <widget class="QLineEdit" name="le_rs1">
+              <property name="font">
+               <font>
+                <family>Century Gothic</family>
+               </font>
+              </property>
+              <property name="inputMask">
+               <string extracomment="Ici, c'est l'adresse de votre réseaux sociaux"/>
+              </property>
+              <property name="text">
+               <string/>
+              </property>
+              <property name="placeholderText">
+               <string>Adresse de réseaux sociaux</string>
+              </property>
+             </widget>
+            </item>
+            <item row="8" column="1">
+             <widget class="QLineEdit" name="le_rs2">
+              <property name="font">
+               <font>
+                <family>Century Gothic</family>
+               </font>
+              </property>
+              <property name="placeholderText">
+               <string>Adresse de réseaux sociaux</string>
+              </property>
+             </widget>
+            </item>
+            <item row="9" column="1">
+             <widget class="QLineEdit" name="le_rs3">
+              <property name="font">
+               <font>
+                <family>Century Gothic</family>
+               </font>
+              </property>
+              <property name="placeholderText">
+               <string>Adresse de réseaux sociaux</string>
+              </property>
+             </widget>
+            </item>
+            <item row="10" column="1">
+             <widget class="QLineEdit" name="le_mdp">
+              <property name="font">
+               <font>
+                <family>Century Gothic</family>
+               </font>
+              </property>
+              <property name="echoMode">
+               <enum>QLineEdit::Password</enum>
+              </property>
+              <property name="placeholderText">
+               <string>Mot de passe</string>
+              </property>
+             </widget>
+            </item>
+            <item row="11" column="1">
+             <widget class="QLineEdit" name="le_mdpconfirm">
+              <property name="font">
+               <font>
+                <family>Century Gothic</family>
+               </font>
+              </property>
+              <property name="echoMode">
+               <enum>QLineEdit::Password</enum>
+              </property>
+              <property name="placeholderText">
+               <string>Mot de passe confirmation</string>
+              </property>
+             </widget>
+            </item>
+            <item row="1" column="1">
+             <widget class="QLineEdit" name="le_prenom">
+              <property name="font">
+               <font>
+                <family>Century Gothic</family>
+               </font>
+              </property>
+              <property name="placeholderText">
+               <string>Prénoms</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="QPushButton" name="pushButton">
+          <property name="styleSheet">
+           <string notr="true">background-color: qlineargradient(spread:reflect, x1:0, y1:0, x2:0.49, y2:0, stop:0 rgba(211, 35, 35, 255), stop:1 rgba(211, 35, 35, 255));
+font: 24pt &quot;Arial&quot;;
+color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string>Retour</string>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="1">
+         <widget class="QPushButton" name="pb_saisir">
+          <property name="styleSheet">
+           <string notr="true">background-color: qlineargradient(spread:reflect, x1:0, y1:0, x2:0.49, y2:0, stop:0 rgba(211, 35, 35, 255), stop:1 rgba(211, 35, 35, 255));
+font: 24pt &quot;Arial&quot;;
+color: rgb(255, 255, 255);</string>
+          </property>
+          <property name="text">
+           <string>S'inscrire</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_13">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">image: url(:/Login/LOGIN/footer_login.png);
+background-color: rgb(231, 231, 230);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="scaledContents">
+         <bool>false</bool>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
